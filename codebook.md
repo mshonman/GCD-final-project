@@ -1,7 +1,8 @@
-Variables
+##Variables
 
 1.	**subject**: 1-30
 2.	**activity**: laying, sitting, standing, walking, walking downstairs, walking upstairs
+
 3.	**tbodyaccmeanx**: mean value of the time domain body accelerometer signal in the X direction
 4.	**tbodyaccmeany**: mean value of the time domain body accelerometer signal in the Y direction
 5.	**tbodyaccmeanz**: mean value of the time domain body accelerometer signal in the Z direction
@@ -95,7 +96,7 @@ Variables
 68.	**fbodygyrojerkmagstd**: standard deviation of the magnitude of the frequency domain body gyroscope jerk signal
 
 
-Data transformations
+##Data transformations
 
 Test and training data were combined for the “Subject,” “Y” and “X” data frames. These frames were then combined, with the “Subject” and “Y” (activity) variables on the left. A new data set was formed from the “Subject” and “Activity” columns, as well as the sixty-six variables describing mean and standard deviation for the observations.
 After updating the variable names, the data were grouped by subject and activity, and a mean was taken from each group to create the final data set.
