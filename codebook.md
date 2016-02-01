@@ -1,7 +1,7 @@
 ##Variables
 
-1.	**subject**: 1-30
-2.	**activity**: laying, sitting, standing, walking, walking downstairs, walking upstairs
+1.	**subject**: subject ID (1-30)
+2.	**activity**: one of the following: laying, sitting, standing, walking, walking downstairs, walking upstairs
 
 3.	**tbodyaccmeanx**: mean value of the time domain body accelerometer signal in the X direction
 4.	**tbodyaccmeany**: mean value of the time domain body accelerometer signal in the Y direction
