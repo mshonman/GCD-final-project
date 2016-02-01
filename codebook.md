@@ -140,3 +140,4 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 Test and training data were combined for the “Subject,” “Y” and “X” data frames. These frames were then combined, with the “Subject” and “Y” (activity) variables on the left. A new data set was formed from the “Subject” and “Activity” columns, as well as the sixty-six variables describing mean and standard deviation for the observations.
 After updating the variable names, the data were grouped by subject and activity, and a mean was taken from each group to create the final data set.
+Initially, several variable names repeated the word "body" twice; this was fixed.
